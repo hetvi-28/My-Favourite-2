@@ -1,0 +1,52 @@
+body {
+	text-align: center;
+	background-color: linear-gradient (#94bbe9);
+	background-repeat: no-repeat;
+}
+
+#image {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+}
+
+h1 {
+	text-shadow: 2px 2px 5px red;
+	font size: 50px;
+	text-align: center; 
+}
+
+p {
+	font-size: 20px;
+	color: blueviolet;
+}
+
+#bio {
+	padding: 20px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#list {
+	text-align: center;
+}
+
+.menu {
+	list-style: none;
+	float: left;
+	cursor: pointer;
+}
+
+.link {
+	padding-right: 6px;
+	padding-left: 6px;
+	display: inline;
+	font-family: 'Merriweather', serif;
+	color: cornflowerblue;
+	font-size: 20px;
+}
+
+.link:hover {
+	background-color: chartreuse;
+}
